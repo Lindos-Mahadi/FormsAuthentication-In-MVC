@@ -65,8 +65,11 @@ F:\FormsAuthentication-In-MVC\bin\System.Web.Webpages.Razor.xml
 F:\FormsAuthentication-In-MVC\bin\System.Web.Helpers.xml
 F:\FormsAuthentication-In-MVC\bin\System.Web.Mvc.xml
 F:\FormsAuthentication-In-MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-F:\FormsAuthentication-In-MVC\obj\Debug\FormsAuthentication-In-MVC.csproj.AssemblyReference.cache
 F:\FormsAuthentication-In-MVC\obj\Debug\FormsAuthentication-In-MVC.csproj.CoreCompileInputs.cache
 F:\FormsAuthentication-In-MVC\obj\Debug\FormsAuthentication-In-MVC.csproj.CopyComplete
 F:\FormsAuthentication-In-MVC\obj\Debug\FormsAuthentication-In-MVC.dll
 F:\FormsAuthentication-In-MVC\obj\Debug\FormsAuthentication-In-MVC.pdb
+F:\FormsAuthentication-In-MVC\bin\EntityFramework.dll
+F:\FormsAuthentication-In-MVC\bin\EntityFramework.SqlServer.dll
+F:\FormsAuthentication-In-MVC\bin\EntityFramework.xml
+F:\FormsAuthentication-In-MVC\bin\EntityFramework.SqlServer.xml
