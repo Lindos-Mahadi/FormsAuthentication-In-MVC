@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FormsAuthentication_In_MVC.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,6 +11,11 @@ namespace FormsAuthentication_In_MVC.Controllers
     {
         // GET: Account
         public ActionResult Login()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Login(MemberShip ship)
         {
             return View();
         }

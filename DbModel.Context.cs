@@ -26,5 +26,8 @@ namespace FormsAuthentication_In_MVC
         }
     
         public virtual DbSet<Employee> Employee { get; set; }
+        public virtual DbSet<User> User { get; set; }
+
+        public System.Data.Entity.DbSet<FormsAuthentication_In_MVC.Models.MemberShip> MemberShips { get; set; }
     }
 }

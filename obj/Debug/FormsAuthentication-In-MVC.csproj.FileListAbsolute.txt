@@ -73,3 +73,4 @@ F:\FormsAuthentication-In-MVC\bin\EntityFramework.dll
 F:\FormsAuthentication-In-MVC\bin\EntityFramework.SqlServer.dll
 F:\FormsAuthentication-In-MVC\bin\EntityFramework.xml
 F:\FormsAuthentication-In-MVC\bin\EntityFramework.SqlServer.xml
+F:\FormsAuthentication-In-MVC\obj\Debug\FormsAuthentication-In-MVC.csproj.AssemblyReference.cache
