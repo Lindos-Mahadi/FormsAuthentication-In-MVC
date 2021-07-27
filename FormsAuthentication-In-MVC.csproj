@@ -292,6 +292,7 @@
     <Content Include="Scripts\jquery.min.map" />
     <Content Include="Scripts\jquery.slim.min.map" />
     <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\SignUp.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
