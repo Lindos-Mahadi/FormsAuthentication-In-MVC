@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsAuthentication-In-MVC", "FormsAuthentication-In-MVC.csproj", "{9967C3EF-4A4E-40EE-B1CF-D2BB9E9D085E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9967C3EF-4A4E-40EE-B1CF-D2BB9E9D085E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9967C3EF-4A4E-40EE-B1CF-D2BB9E9D085E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9967C3EF-4A4E-40EE-B1CF-D2BB9E9D085E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9967C3EF-4A4E-40EE-B1CF-D2BB9E9D085E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B27D1C17-C113-41AA-A851-E247DDDAD911}
+	EndGlobalSection
+EndGlobal
