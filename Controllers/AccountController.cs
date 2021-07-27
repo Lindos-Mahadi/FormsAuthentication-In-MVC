@@ -26,8 +26,10 @@ namespace FormsAuthentication_In_MVC.Controllers
                     FormsAuthentication.SetAuthCookie(ship.UserName, false);
                     return RedirectToAction("Index","Employees");
                 }
+                ModelState.AddModelError("","Invalid UserName and Password");
+                return View();
             }
-            return View();
+            
         }
         public ActionResult SignUp()
         {
@@ -41,6 +43,11 @@ namespace FormsAuthentication_In_MVC.Controllers
                 context.User.Add(userModel);
                 context.SaveChanges();
             }
+            return RedirectToAction("Login");
+        }
+        public ActionResult Logout()
+        {
+            FormsAuthentication.SignOut();
             return RedirectToAction("Login");
         }
     }
