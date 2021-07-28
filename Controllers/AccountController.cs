@@ -8,6 +8,7 @@ using System.Web.Security;
 
 namespace FormsAuthentication_In_MVC.Controllers
 {
+    [AllowAnonymous]
     public class AccountController : Controller
     {
         // GET: Account

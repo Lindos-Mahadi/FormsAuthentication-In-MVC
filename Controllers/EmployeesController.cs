@@ -10,7 +10,6 @@ using FormsAuthentication_In_MVC;
 
 namespace FormsAuthentication_In_MVC.Controllers
 {
-    [Authorize] // No One can See anything
     public class EmployeesController : Controller
     {
         private FormsAutenticationEntities db = new FormsAutenticationEntities();
