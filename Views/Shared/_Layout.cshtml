@@ -22,6 +22,7 @@
                 <ul class="nav navbar-nav">
                     <li class="nav-item">@Html.ActionLink("Get List", "Index", "Employees", new { area = "" }, new { @class = "navbar-brand" })</li>
                     <li class="nav-item">@Html.ActionLink("Create", "Create", "Employees", new { area = "" }, new { @class = "navbar-brand" })</li>
+                    <li class="nav-item">@Html.ActionLink("About", "About", "Employees", new { area = "" }, new { @class = "navbar-brand" })</li>
                     @if (User.Identity.IsAuthenticated)
                     {
                         <li class="nav-item">Dear @User.Identity.Name</li>
