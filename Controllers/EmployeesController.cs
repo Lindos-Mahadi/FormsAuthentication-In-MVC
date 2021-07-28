@@ -10,6 +10,7 @@ using FormsAuthentication_In_MVC;
 
 namespace FormsAuthentication_In_MVC.Controllers
 {
+    [Authorize]
     public class EmployeesController : Controller
     {
         private FormsAutenticationEntities db = new FormsAutenticationEntities();
@@ -36,6 +37,7 @@ namespace FormsAuthentication_In_MVC.Controllers
         }
 
         // GET: Employees/Create
+        [Authorize(Roles = "Admin, Customer")]
         public ActionResult Create()
         {
             return View();
@@ -46,6 +48,7 @@ namespace FormsAuthentication_In_MVC.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin, Customer")]
         public ActionResult Create([Bind(Include = "Id,Name,Designation,Salary")] Employee employee)
         {
             if (ModelState.IsValid)
@@ -59,6 +62,7 @@ namespace FormsAuthentication_In_MVC.Controllers
         }
 
         // GET: Employees/Edit/5
+        [Authorize(Roles = "Admin")]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -78,6 +82,7 @@ namespace FormsAuthentication_In_MVC.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public ActionResult Edit([Bind(Include = "Id,Name,Designation,Salary")] Employee employee)
         {
             if (ModelState.IsValid)
@@ -90,6 +95,7 @@ namespace FormsAuthentication_In_MVC.Controllers
         }
 
         // GET: Employees/Delete/5
+        [Authorize(Roles = "Admin")]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -107,6 +113,7 @@ namespace FormsAuthentication_In_MVC.Controllers
         // POST: Employees/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public ActionResult DeleteConfirmed(int id)
         {
             Employee employee = db.Employee.Find(id);
